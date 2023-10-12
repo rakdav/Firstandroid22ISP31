@@ -22,12 +22,35 @@
         android:inputType="numberDecimal"
         android:textSize="12pt"
         android:hint="@string/second" />
-    <Button
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/buttonOk"
-        android:textSize="12pt"
-        android:text="OK"/>
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonAdd"
+            android:textSize="12pt"
+            android:text="+"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonSub"
+            android:textSize="12pt"
+            android:text="-"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonMult"
+            android:textSize="12pt"
+            android:text="*"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonDiv"
+            android:textSize="12pt"
+            android:text="/"/>
+    </LinearLayout>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
