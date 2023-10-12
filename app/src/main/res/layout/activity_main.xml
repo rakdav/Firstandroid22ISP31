@@ -31,22 +31,26 @@
             android:layout_height="wrap_content"
             android:id="@+id/buttonAdd"
             android:textSize="12pt"
+            android:layout_weight="1"
             android:text="+"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/buttonSub"
             android:textSize="12pt"
+            android:layout_weight="1"
             android:text="-"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/buttonMult"
+            android:layout_weight="1"
             android:textSize="12pt"
             android:text="*"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:id="@+id/buttonDiv"
             android:textSize="12pt"
             android:text="/"/>
